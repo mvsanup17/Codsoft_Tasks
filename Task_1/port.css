@@ -1,0 +1,181 @@
+.main-head{
+    height: 70px;
+    background-color: #F8CB2E;
+}
+
+.base , .base-1{
+    height: 350px;
+}
+
+.set{
+    height: 350px;
+    margin: 0px 0px 0px 35px;
+}
+
+.ani{
+    margin: 20px 0px 0px 0px;
+
+}
+
+h3{color: #419197;}
+
+.btn{
+    border: 3px solid #023047;
+    text-decoration: none;
+    color: white;
+    height: 45px;
+    padding: 0px 30px 0px 30px;
+    border-radius: 10px;
+    background-color: #219EBC;
+    transition: transform 0.3s;
+}
+
+.btn:hover{
+    transform: translateY(10px);
+    background-color: #023047;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.con , .can{
+    height: 300px;
+}
+
+.set-2{
+    height: 300px;
+}
+
+.img-size{
+    height: 75px;
+    margin: 0px 10px 0px 10px;
+}
+
+.con-2 , .con-3{
+    height: 300px;
+}
+
+.con-2{
+    margin: 0px 0px 0px -5px;
+}
+
+.set-3{
+    height: 300px;
+}
+
+.bar-1{
+    height: 20px;
+    width: 600px;
+    background-color: #959595;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bar-12{
+    height: 20px;
+    width: 550px;
+    color: white;
+    background-color: #1C6DD0;
+    border-radius: 10px;
+}
+
+.bar-13{
+    height: 20px;
+    width: 400px;
+    color: white;
+    background-color: #1C6DD0;
+    border-radius: 10px;
+}
+
+.bar-14{
+    height: 20px;
+    width: 300px;
+    color: white;
+    background-color: #1C6DD0;
+    border-radius: 10px;
+}
+
+.para{
+    font-size: 12px;
+    margin: 0px 0px 2px 40px;
+    font-weight: 500;
+}
+
+.con-4{
+    height: 400px;
+    margin-top: 10px;
+}
+
+.head{
+    height: 100px;
+}
+
+.imag-size{
+    height: 200px;
+    margin: 20px 0px 0px 58px;
+}
+
+.imag-size-1{
+    height: 200px;
+    margin: 20px 0px 0px 18px;
+}
+
+.imag-size-2{
+    height: 200px;
+    margin: 20px 0px 0px 105px;
+}
+
+.det{
+    height: 300px;
+    margin-top: 30px;
+    background-color: #AEE2FF;
+    
+}
+
+.det:hover , .det-1:hover , .det-2:hover , .det-3:hover{
+    border: 2px solid black;
+}
+
+.det-1{
+    height: 300px;
+    margin-top: 30px;
+    background-color: #D2E9E9;
+}
+.det-2{
+    height: 300px;
+    margin-top: 30px;
+    background-color: #D2E9E9;
+}
+
+.det-3{
+    height: 300px;
+    margin-top: 30px;
+    background-color: #AEE2FF;
+}
+
+.size{
+    height: 300px;
+    margin-left: 105px;
+}
+
+.foot{
+    height: 250px;
+}
+
+.foot-size{
+    height: 250px;
+}
+
+.icon{  
+    height: 55px;
+    margin-left: 15px;
+}
+
+.main-head-1{
+    height: 60px;
+    margin-top: 40px;
+    background-color: #F8CB2E;
+}
+
