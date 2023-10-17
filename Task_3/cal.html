@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <style>
+        input[type="text"]{
+            padding: 0px 40px 0px 10px;
+        }
+        input{
+            border: none;
+        }
+        table{
+            border: none; 
+        }
+        td[id="res"]{
+            border: 1px solid black;
+        }
+        button{
+            padding: 0px 55px 0px 0px;
+            height: 35px;
+            text-align: right;
+            cursor: pointer;
+            border: 1px solid black;
+            font-weight: bold;
+            text-align: center;
+        }
+        button:hover{
+            background-color: lightseagreen;
+            border: none;
+        }
+        
+       
+    </style>
+    <center>
+        <h1>Calculator</h1>
+
+        <br><br>
+        <table  width="200px">
+            <tr>
+                <td colspan="4" style="height: 40px;" id="res"><input type="text" placeholder="Enter number"></td>
+            </tr>
+            <tr>
+                <td><button onclick="getnum('9')">9</button></td>
+                <td><button onclick="getnum('8')">8</button></td>
+                <td><button onclick="getnum('7')">7</button></td>
+                <td><button onclick="getnum('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getnum('6')">6</button></td>
+                <td><button onclick="getnum('5')">5</button></td>
+                <td><button onclick="getnum('4')">4</button></td>
+                <td><button onclick="getnum('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getnum('3')">3</button></td>
+                <td><button onclick="getnum('2')">2</button></td>
+                <td><button onclick="getnum('1')">1</button></td>
+                <td><button onclick="getnum('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getnum('0')">0</button></td>
+                <td><button onclick="clearall('C')">C</button></td>
+                <td><button onclick="getnum('=')">=</button></td>
+                <td><button onclick="getnum('+')">+</button></td>
+            </tr>
+        </table>
+    </center>
+    <script>
+        function getnum(val){
+            if(val == '='){
+                var a = document.getElementById('res').innerText;
+                document.getElementById('res').innerText = eval(a);
+            }
+            else{
+                document.getElementById('res').innerText += val;
+            }
+        }
+        function clearall(){
+            document.getElementById('res').innerText = '';
+        }
+    </script>
+</body>
+</html>
